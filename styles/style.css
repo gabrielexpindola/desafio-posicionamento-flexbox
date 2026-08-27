@@ -61,8 +61,34 @@ img {
     width: 550px;
 }
 
-.itens-vertical2 {
-
+.grupo-menor2 {
+    width: 340px;
 }
+
+.grupo-maior2 {
+    width: 550px;
+}
+
+.itens-vertical2 {
+    height: 960px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.faixa-cima {
+    background-color: #E8B6FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faixa-baixo {
+    background-color: #E8B6FF;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* css finalizado */
